@@ -7,7 +7,8 @@ import { hex2rgb } from './js/utils/utils.js'
  */
 function initGl( )
 {
-    var gl = canvas.getContext('webgl2');
+    const canvas = document.getElementById('canvas');
+    const gl = canvas.getContext('webgl2');
     return gl;
 
     throw '"initGl" not implemented' 
