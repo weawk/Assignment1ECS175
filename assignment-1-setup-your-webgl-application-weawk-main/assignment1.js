@@ -11,8 +11,6 @@ function initGl( )
     const gl = canvas.getContext('webgl2');
     return gl;
 
-    throw '"initGl" not implemented' 
-
 }
 
 
@@ -46,7 +44,6 @@ function clearCanvas( gl, app_state )
         gl.viewport(0,0,0,0);
     }
     return;
-    throw '"clearCanvas" not implemented' 
 }
 
 
